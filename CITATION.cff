@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use these numbers, please cite this repository and the original dataset publications listed in the README."
+title: "KBrain Map numbers: a living catalogue of numbers measured from public connectomes"
+version: "0.1.0"
+date-released: "2026-11-14"
+authors:
+  - family-names: "Kang"
+    given-names: "Byeongsoo"
+    orcid: "https://orcid.org/0009-0007-2324-2351"
+repository-code: "https://github.com/shoo99/kbrain-map-numbers"
+url: "https://kbrain-map.org/numbers"
+license: "CC-BY-4.0"
+keywords:
+  - connectomics
+  - neuroscience
+  - H01
+  - MICrONS
+  - Drosophila
+  - data curation
