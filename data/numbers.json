@@ -296,7 +296,31 @@
   "caveat": "One sample per species, different cortical areas (human temporal association cortex vs mouse visual cortex). 46,739 mouse nuclei (32%) have no class; even if all were glia the mouse ratio would be 0.87, still below the human value. Cell types come from each project's own classification (manual in H01, mostly automated in MICrONS). Why the ratio differs: across species it rises as neurons get larger and less densely packed (Herculano-Houzel 2014, Glia 62:1377).",
   "source": "ours",
   "post": null,
-  "video": null,
+  "video": "https://youtu.be/FDt7YCpF-oI",
   "date": "2026-11-13"
+ },
+ {
+  "id": "mouse-basket-cells",
+  "value": "37%",
+  "claim": "of the neurons labelled inhibitory (\"brake\") in this mouse visual cortex sample are labelled basket cells, the type that grips other neurons around their cell bodies; most labels come from a model that reads the cell body and nucleus",
+  "map": "microns",
+  "method": "MICrONS public cell table aibs_cell_info (materialization v1300; column names from aibs_cell_info_header.csv). 9,017 cells with broad_type inhibitory; 3,374 of them have cell_type BC = 37% (ours). Source of those 3,374 labels (cell_type_source): aibs_metamodel_celltypes_v661 3,283 (hierarchical classifier trained on features of the cell body and nucleus; Elabbady et al. 2025, Nature 640:478), allen_v1_column_types_slanted_ref 59 (typed by hand by Allen Institute anatomists), aibs_metamodel_celltypes_v661_corrections 32. The separate mtype label PTC (perisomatic targeting cells, roughly basket cells; Schneider-Mizell et al. 2025, Nature 640:448) gives 3,054 = 34%.",
+  "caveat": "Mostly model predictions; BC and PTC come from the same AIBS model family, so they are not independent checks. broad_type and cell_type come from different classifiers and disagree for some cells (933 cells with broad_type inhibitory carry an excitatory cell_type). One sample (mouse visual cortex). The human H01 data do not label inhibitory subtypes. Corrected 2026-11-15: an earlier version of this card called BC and PTC two independent methods and named the wrong source column.",
+  "source": "ours",
+  "post": null,
+  "video": "https://youtu.be/BaK3Y3xe5uM",
+  "date": "2026-11-14"
+ },
+ {
+  "id": "mouse-nucleus-size",
+  "value": "~4×",
+  "claim": "bigger: the typical neuron nucleus vs the typical microglia nucleus in this mouse visual cortex sample (about 280 vs 73 cubic microns)",
+  "map": "microns",
+  "method": "MICrONS public cell table aibs_cell_info (materialization v1300; column names from aibs_cell_info_header.csv), column nuc_volume. Median 278 µm³ for 75,405 neurons (broad_type excitatory or inhibitory) vs 72.5 µm³ for 2,635 microglia (broad_type nonneuron, cell_type microglia) = 3.8× (ours). Hand-typed cells only (1,333 neurons from allen_v1_column_types_slanted_ref, 60 microglia from aibs_column_nonneuronal_ref): 288 vs 74 = 3.9×. Pericytes have the smallest median, 51 µm³ (2,780 cells). Units: the table does not state them; we measured the two nuclei in the shown EM section (minnie65, 16 nm pixels): neuron about 8 × 10 µm, microglia about 3.6 × 7.6 µm, consistent with µm³.",
+  "caveat": "One sample (mouse visual cortex). Nucleus volumes come from the dataset's automatic nucleus detection; most cell types are model predictions. Medians hide wide ranges (neurons 10th to 90th percentile 223 to 362 µm³ for excitatory). Why (review, not measured here): nuclear size scales with cell size, not DNA content (Cantwell & Nurse 2019, Curr Genet 65:1281).",
+  "source": "ours",
+  "post": null,
+  "video": null,
+  "date": "2026-11-15"
  }
 ]
