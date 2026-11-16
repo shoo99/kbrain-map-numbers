@@ -320,7 +320,19 @@
   "caveat": "One sample (mouse visual cortex). Nucleus volumes come from the dataset's automatic nucleus detection; most cell types are model predictions. Medians hide wide ranges (neurons 10th to 90th percentile 223 to 362 µm³ for excitatory). Why (review, not measured here): nuclear size scales with cell size, not DNA content (Cantwell & Nurse 2019, Curr Genet 65:1281).",
   "source": "ours",
   "post": null,
-  "video": null,
+  "video": "https://youtu.be/i9I_cfgicYw",
   "date": "2026-11-15"
+ },
+ {
+  "id": "strong-axon-inputs",
+  "value": "96.5%",
+  "claim": "of axon-to-neuron connections in this human cortex sample are a single synapse; yet rare axons make 7 to about 50 synapses on one neuron, more often than chance predicts",
+  "map": "h01",
+  "method": "Paper values (author manuscript, main text p. 12): synapses per axonal input, 1 = 96.49%, 2 = 2.99%, 3 = 0.35%, 4 or more = 0.092% (Table S8); 39% of the 2,743 neurons with at least 3,000 synapses had at least one input with 7 or more synapses. Structured abstract (p. 2): inputs of up to ~50 synapses. Main text p. 13: a null model of chance contacts is inconsistent with the observed strong pairs (p < 10^-10, 79,827,631 axons).",
+  "caveat": "One sample (human temporal cortex, epilepsy surgery). Based on the automated c3 segmentation, in which many axons are split into pieces, so per-axon counts may be too low. Chandelier axons on axon initial segments were excluded. The paper shows the strong pairs are not chance but does not say what they are for.",
+  "source": "paper",
+  "post": null,
+  "video": null,
+  "date": "2026-11-16"
  }
 ]
