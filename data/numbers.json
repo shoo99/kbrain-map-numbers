@@ -332,7 +332,19 @@
   "caveat": "One sample (human temporal cortex, epilepsy surgery). Based on the automated c3 segmentation, in which many axons are split into pieces, so per-axon counts may be too low. Chandelier axons on axon initial segments were excluded. The paper shows the strong pairs are not chance but does not say what they are for.",
   "source": "paper",
   "post": null,
-  "video": null,
+  "video": "https://youtu.be/zjAWiwBal28",
   "date": "2026-11-16"
+ },
+ {
+  "id": "layers-from-clusters",
+  "value": "3 → 7",
+  "claim": "dense bands of neurons, found by a clustering algorithm from cell positions and cell-body sizes alone, gave the boundaries that split this human cortex sample into 7 regions: layers 1 to 6 and white matter",
+  "map": "h01",
+  "method": "Paper (supplementary materials pp. 26–27, \"Identification of cortical layers\"): layers found \"without any prior assumptions about the numbers of these layers, or their locations\"; HDBSCAN clustered neurons by x–y distance and soma-volume difference and \"identified three clusters\"; concentric circular arcs fitted to the top and bottom edges of each cluster gave six boundaries that \"divided the cortex into seven regions, corresponding to classical descriptions of layers 1 through 6 and white matter\". Neurons per layer label in somas.csv (ours): L1 827, L2 4,656, L3 2,692, L4 3,440, L5 2,313, L6 1,077, white matter 648, none 434 (of 16,087).",
+  "caveat": "One sample (human temporal cortex, epilepsy surgery). The boundaries are smooth arcs fitted to clusters, so cells near a boundary may sit in the neighbouring layer by classical criteria. The paper's code is in its Zenodo analysis-scripts repository.",
+  "source": "paper",
+  "post": null,
+  "video": null,
+  "date": "2026-11-17"
  }
 ]
