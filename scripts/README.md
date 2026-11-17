@@ -15,5 +15,6 @@ Requirements: Python 3, standard library only. Run from any folder; downloads ar
 | inhibitory-third | `inhibitory-third.py` | 30.8% (29.1% with unclassified) human vs 12.0% mouse |
 | mouse-basket-cells | `mouse-basket-cells.py` | 37.4% BC (label sources listed); 33.9% PTC |
 | mouse-nucleus-size | `mouse-nucleus-size.py` | 278 vs 73 µm³ median, 3.8× (3.9× hand-typed only) |
+| fly-histamine-neurons | `fly-histamine-neurons.py` | 5,910 histamine-predicted bodies; 14 outside the optic lobes, 8 with a type name |
 
 `_tables.py` holds the shared download and table-reading code for the scripts above.
