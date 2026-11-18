@@ -344,7 +344,19 @@
   "caveat": "One sample (human temporal cortex, epilepsy surgery). The boundaries are smooth arcs fitted to clusters, so cells near a boundary may sit in the neighbouring layer by classical criteria. The paper's code is in its Zenodo analysis-scripts repository.",
   "source": "paper",
   "post": null,
-  "video": null,
+  "video": "https://youtu.be/gps_we8a7Fs",
   "date": "2026-11-17"
+ },
+ {
+  "id": "proofread-by-hand",
+  "value": "~2% vs 104",
+  "claim": "of the neurons in the mouse MICrONS map have a hand-checked axon (about 1,700 of 75,000); in the human H01 map, 104 neurons were proofread, at a median of 223 minutes each",
+  "map": "microns",
+  "method": "Mouse: MICrONS public cell table aibs_cell_info (materialization v1300; column names from aibs_cell_info_header.csv). Neurons = broad_type excitatory or inhibitory, 75,405; axon_cleaned = true for 1,711 (2.3%); axon_strategy fully_extended for 127 (ours). Meanings from the MICrONS tutorial (Annotation Tables): status true means false merges have been comprehensively removed; axon_fully_extended means every endpoint was identified, manually inspected and extended again if possible. Human: H01 supplementary materials p. 17, 104 randomly selected neurons proofread; median 223 min, mean 468 min, 810 person-hours in total; 16,087 neurons (Table S5).",
+  "caveat": "The two projects use different proofreading standards, so the shares are not a like-for-like comparison. In H01, dendritic spines of the 104 cells were not proofread (main text p. 6). One sample each (mouse visual cortex, human temporal cortex). Checking all 16,087 H01 neurons at the paper's mean time would take about 125,000 person-hours (our arithmetic).",
+  "source": "ours",
+  "post": null,
+  "video": null,
+  "date": "2026-11-18"
  }
 ]
