@@ -356,7 +356,19 @@
   "caveat": "The two projects use different proofreading standards, so the shares are not a like-for-like comparison. In H01, dendritic spines of the 104 cells were not proofread (main text p. 6). One sample each (mouse visual cortex, human temporal cortex). Checking all 16,087 H01 neurons at the paper's mean time would take about 125,000 person-hours (our arithmetic).",
   "source": "ours",
   "post": null,
-  "video": null,
+  "video": "https://youtu.be/-7QY5hGppiY",
   "date": "2026-11-18"
+ },
+ {
+  "id": "spines-cut-off",
+  "value": "33.7%",
+  "claim": "of one human neuron's 1,550 dendritic spines were not attached to it in the public automatic H01 map (about 1 in 3); the older map version was about the same (32.2%)",
+  "map": "h01",
+  "method": "Paper values. Main text (author manuscript p. 6): \"proofreading 1550 spines on the dendritic tree of a layer 2 pyramidal neuron ... 32.2% of its spines detached from dendritic shafts in the c2 segmentation, vs. 33.7% in the c3 segmentation\". Supplementary materials p. 18: the 1,550 spines were identified by hand, and the share not part of the neuron's automatically agglomerated segment was computed.",
+  "caveat": "One neuron, checked by hand; the rate elsewhere in the volume may differ (the paper notes split errors are not uniform across H01). The public c3 map is the version analysts use. Manual proofreading of the hundreds of thousands of spines on the 104 proofread neurons was not done (main text p. 6), so per-neuron input counts from the automatic map miss inputs on detached spines.",
+  "source": "paper",
+  "post": null,
+  "video": null,
+  "date": "2026-11-19"
  }
 ]
