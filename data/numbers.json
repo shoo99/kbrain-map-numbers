@@ -368,7 +368,19 @@
   "caveat": "One neuron, checked by hand; the rate elsewhere in the volume may differ (the paper notes split errors are not uniform across H01). The public c3 map is the version analysts use. Manual proofreading of the hundreds of thousands of spines on the 104 proofread neurons was not done (main text p. 6), so per-neuron input counts from the automatic map miss inputs on detached spines.",
   "source": "paper",
   "post": null,
-  "video": null,
+  "video": "https://youtu.be/Ag2Kfn9R3zI",
   "date": "2026-11-19"
+ },
+ {
+  "id": "not-a-cube",
+  "value": "0.17 mm",
+  "claim": "thick: the \"cubic millimetre\" of human cortex (H01) is a thin slab, not a 1 mm cube",
+  "map": "h01",
+  "method": "Paper main text (author manuscript p. 5): \"170 micrometer thick slab of human cortex ... with a total volume of just over one cubic millimeter\"; \"approximately 3 millimeters from layer one to the white matter\"; 5,019 sections, average 33.9 nm, \"total sample thickness of 0.170 millimeters\"; imaged volume 1.05 mm³ (uncompressed). The paper says the imaging throughput constrained the thickness. 1 / 0.17 ≈ 6 slabs to reach 1 mm (ours). The video shows the released EM volume at low resolution: one whole section (front) and one cut across all sections (side) at the same scale.",
+  "caveat": "The 3 mm is the paper's approximate span from layer 1 to white matter; the slab's outline is irregular, not a box. The video's images are not corrected for the 28% compression in the cutting direction. One sample (human temporal cortex, epilepsy surgery).",
+  "source": "paper",
+  "post": null,
+  "video": null,
+  "date": "2026-11-20"
  }
 ]
