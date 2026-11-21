@@ -380,7 +380,19 @@
   "caveat": "The 3 mm is the paper's approximate span from layer 1 to white matter; the slab's outline is irregular, not a box. The video's images are not corrected for the 28% compression in the cutting direction. One sample (human temporal cortex, epilepsy surgery).",
   "source": "paper",
   "post": null,
-  "video": null,
+  "video": "https://youtu.be/D2faSbdoNDU",
   "date": "2026-11-20"
+ },
+ {
+  "id": "not-all-v1",
+  "value": "65%",
+  "claim": "of the neurons in the MICrONS mouse map are labelled primary visual cortex (V1); the rest sit in three neighbouring visual areas",
+  "map": "microns",
+  "method": "MICrONS public cell table aibs_cell_info (materialization v1300; column names from aibs_cell_info_header.csv). Neurons = broad_type (col 5) excitatory or inhibitory: 75,405. visual_area (col 15): V1 49,168 (65.2%), RL 17,363 (23.0%), AL 8,489 (11.3%), LM 385 (0.5%). All 144,120 cells: V1 90,765 (63.0%). Counts ours. The paper's title says the map spans multiple areas of mouse visual cortex (MICrONS Consortium 2025, Nature 640:435).",
+  "caveat": "Area labels are the values in the public table; we did not check or redraw the area borders. One sample of mouse visual cortex.",
+  "source": "ours",
+  "post": null,
+  "video": null,
+  "date": "2026-11-21"
  }
 ]
