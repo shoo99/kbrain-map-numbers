@@ -392,7 +392,19 @@
   "caveat": "Area labels are the values in the public table; we did not check or redraw the area borders. One sample of mouse visual cortex.",
   "source": "ours",
   "post": null,
-  "video": null,
+  "video": "https://youtu.be/xD_R-HqTcPU",
   "date": "2026-11-21"
+ },
+ {
+  "id": "inputs-on-dendrites",
+  "value": "99.4%",
+  "claim": "of classified synapses in this human cortex sample land on dendrites; 0.394% on cell bodies and 0.197% on the axon initial segment",
+  "map": "h01",
+  "method": "Paper main text (author manuscript p. 7): \"Analyzing the post-synaptic component of 133,704,881 of these ... a high percentage of these synapses located on dendrites (99.4%), with far fewer innervating the AIS (0.197%) or somata (0.394%)\". Supplementary materials p. 24: the postsynaptic structure is the closest classified skeleton node of the postsynaptic segment. Fig. 5 legend (p. 27): on a representative pyramidal neuron, synapse density is \"highest along the AIS and strikingly sparse on the soma\". Table S4 (SM p. 51): dendrites fill more of the tissue than cell bodies in every layer.",
+  "caveat": "Shares are of the 133.7 million synapses whose target could be classified; segments too small to classify (8.8%) and some others are not in the denominator. The video shows one neuron's input synapses as an illustration; the percentages are for the whole sample. One sample (human temporal cortex, epilepsy surgery).",
+  "source": "paper",
+  "post": null,
+  "video": null,
+  "date": "2026-11-22"
  }
 ]
