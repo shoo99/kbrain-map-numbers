@@ -406,5 +406,29 @@
   "post": null,
   "video": "https://youtu.be/20B408L383w",
   "date": "2026-11-22"
+ },
+ {
+  "id": "layer1-mostly-inhibitory",
+  "value": "71%",
+  "claim": "of the neurons labelled layer 1 in this human cortex sample are interneurons (brake cells); 72 are pyramidal cells",
+  "map": "h01",
+  "method": "somas.csv (release c3), neurons with layer \"Layer 1\": 827 = INTERNEURON 586 (70.9%), UNCLASSIFIED_NEURON 156, PYRAMIDAL 72, SPINY_ATYPICAL 13. Counts ours. For comparison, layer 2: 1,594 of 4,656 neurons are interneurons (34%). Script: github.com/shoo99/kbrain-map-numbers/blob/main/scripts/layer1-few-neurons.py (prints interneuron and pyramidal counts per layer).",
+  "caveat": "Layer labels are the dataset's own, from boundaries fitted to clusters of cells (supplementary materials pp. 26–27); in the video, many of the 72 pyramidal cells sit along the border with layer 2 and may belong to it. Cell types were assigned by hand by the H01 team. One sample (human temporal cortex, epilepsy surgery).",
+  "source": "ours",
+  "post": null,
+  "video": "https://youtu.be/TpDr2w-Smhs",
+  "date": "2026-11-24"
+ },
+ {
+  "id": "layer5-et-biggest-nuclei",
+  "value": "438 µm³",
+  "claim": "median nucleus of layer 5 \"ET\" pyramidal neurons in the MICrONS mouse map, the largest of 13 neuron types and about 1.5 times a layer 2/3 pyramidal cell (296 µm³)",
+  "map": "microns",
+  "method": "MICrONS public cell table aibs_cell_info (materialization v1300; column names from aibs_cell_info_header.csv). Neurons = broad_type excitatory or inhibitory, 13 neuron cell_types. Median nuc_volume: 5P-ET 437.7 (2,193 cells), 5P-IT 298.0, 23P 295.9 (19,744), 6P-IT 275.7, 4P 254.2, smallest BPC 225.8. Hand-typed cells only (cell_type_source allen_v1_column_types_slanted_ref): 5P-ET 474.4 (38) vs 23P 302.4 (349). Ratio 5P-ET / 23P = 1.48. Counts ours. Script: github.com/shoo99/kbrain-map-numbers/blob/main/scripts/layer5-et-biggest-nuclei.py",
+  "caveat": "Nucleus volume, not cell-body volume. Only one layer 5 type stands out; layer 5 IT cells are average. Most cell types are model predictions (the hand-typed subset gives the same order). Units: see mouse-nucleus-size. The rings in the video mark the two nuclei shown and are drawn by eye. One sample (mouse visual cortex).",
+  "source": "ours",
+  "post": null,
+  "video": null,
+  "date": "2026-11-25"
  }
 ]
