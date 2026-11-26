@@ -428,7 +428,19 @@
   "caveat": "Nucleus volume, not cell-body volume. Only one layer 5 type stands out; layer 5 IT cells are average. Most cell types are model predictions (the hand-typed subset gives the same order). Units: see mouse-nucleus-size. The rings in the video mark the two nuclei shown and are drawn by eye. One sample (mouse visual cortex).",
   "source": "ours",
   "post": null,
-  "video": null,
+  "video": "https://youtu.be/EI5zrnAY52o",
   "date": "2026-11-25"
+ },
+ {
+  "id": "bloodless-bridges",
+  "value": "74",
+  "claim": "\"bloodless bridges\" in this human cortex sample: strands of basement membrane and pericytes with no lining cells and no lumen, connecting different capillaries",
+  "map": "h01",
+  "method": "Paper main text (author manuscript p. 10): \"Bloodless bridges (n=74), composed of basement membrane and pericytes but lacking endothelial cells and a lumen ... connected different capillaries in the dataset (red in fig. 4B)\". Same page: \"The reconstructed blood vessels (~230 mm in length)\". The paper cites Brown W.R., \"A Review of String Vessels or Collapsed, Empty Basement Membrane Tubes\" (its ref. 46). Value from the paper; not recounted by us.",
+  "caveat": "The paper's count; we could not identify the 74 bridges among the public vessel meshes, so the video shows the vessel network without marking them. One sample (human temporal cortex, epilepsy surgery).",
+  "source": "paper",
+  "post": null,
+  "video": null,
+  "date": "2026-11-26"
  }
 ]
