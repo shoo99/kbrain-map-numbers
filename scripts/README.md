@@ -16,5 +16,7 @@ Requirements: Python 3, standard library only. Run from any folder; downloads ar
 | mouse-basket-cells | `mouse-basket-cells.py` | 37.4% BC (label sources listed); 33.9% PTC |
 | mouse-nucleus-size | `mouse-nucleus-size.py` | 278 vs 73 µm³ median, 3.8× (3.9× hand-typed only) |
 | fly-histamine-neurons | `fly-histamine-neurons.py` | 5,910 histamine-predicted bodies; 14 outside the optic lobes, 8 with a type name |
+| layer5-et-biggest-nuclei | `layer5-et-biggest-nuclei.py` | 437.7 (5P-ET) vs 295.9 (23P) µm³ median nucleus, 1.48× |
+| most-common-glia | `most-common-glia.py` | human layers 1-6: oligodendrocytes 48.6%, astrocytes 24.4% of glia; mouse: astrocytes 40.9%, oligodendrocytes 36.7% |
 
 `_tables.py` holds the shared download and table-reading code for the scripts above.
