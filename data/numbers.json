@@ -440,7 +440,19 @@
   "caveat": "The paper's count; we could not identify the 74 bridges among the public vessel meshes, so the video shows the vessel network without marking them. One sample (human temporal cortex, epilepsy surgery).",
   "source": "paper",
   "post": null,
-  "video": null,
+  "video": "https://youtu.be/P-lD1XeKhK0",
   "date": "2026-11-26"
+ },
+ {
+  "id": "most-common-glia",
+  "value": "2 : 1",
+  "claim": "oligodendrocytes to astrocytes among the glia of this human cortex sample (layers 1 to 6); in the MICrONS mouse map astrocytes lead, narrowly (41% vs 37% of glia)",
+  "map": "microns",
+  "method": "Human: H01 somas.csv (c3), rows with layer \"Layer 1\" to \"Layer 6\", column celltype: glia 19,238 = OLIGO 9,350 (48.6%) · MG_OPC 5,034 (26.2%, microglia and OPCs share one label) · ASTROCYTE 4,693 (24.4%) · C_SHAPED 161 (0.8%); 9,350 / 4,693 = 1.99 (ours). Mouse: MICrONS public cell table aibs_cell_info (materialization v1300; column names from aibs_cell_info_header.csv), broad_type nonneuron, column cell_type: glia 19,184 = astrocyte 7,851 (40.9%) · oligo 7,035 (36.7%) · microglia 2,635 (13.7%) · OPC 1,663 (8.7%) (ours). Script: github.com/shoo99/kbrain-map-numbers/blob/main/scripts/most-common-glia.py",
+  "caveat": "One sample per species, from different cortical areas (human temporal cortex from epilepsy surgery, mouse visual cortex). Human cell types were labelled by hand, mouse cell types mostly by a model. 46,739 of 144,120 mouse cells (32%) have no class, enough to change the small mouse margin. In the human map astrocytes are also outnumbered by microglia and OPCs combined (one label). Human white matter, left out here, is 83% oligodendrocytes among glia.",
+  "source": "ours",
+  "post": null,
+  "video": null,
+  "date": "2026-11-27"
  }
 ]
