@@ -41,8 +41,8 @@ The same numbers are shown at **https://kbrain-map.org/numbers**, and many are e
 The values are derived from these public datasets and their publications. Please cite them as well when you use a number.
 
 - **H01** (human temporal cortex): Shapson-Coe A. et al. (2024) *Science* 384:eadk4858, doi:10.1126/science.adk4858. Data: `gs://h01-release` (CC BY 4.0).
-- **MICrONS** (mouse visual cortex): MICrONS Consortium (2025) *Nature*. Data: MICrONS public release.
-- **Male CNS** (fruit fly): Janelia FlyEM Male CNS connectome public release.
+- **MICrONS** (mouse visual cortex): MICrONS Consortium (2025) *Nature* 640:435-447, doi:10.1038/s41586-025-08790-w. Data: MICrONS public release, https://www.microns-explorer.org (CC BY 4.0 per its terms and conditions; attribution per its citation policy).
+- **Male CNS** (fruit fly): Janelia FlyEM Male CNS connectome public release, https://male-cns.janelia.org/ (CC-BY, as stated on the release page).
 
 ## License
 
