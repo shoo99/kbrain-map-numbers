@@ -452,7 +452,19 @@
   "caveat": "One sample per species, from different cortical areas (human temporal cortex from epilepsy surgery, mouse visual cortex). Human cell types were labelled by hand, mouse cell types mostly by a model. 46,739 of 144,120 mouse cells (32%) have no class, enough to change the small mouse margin. In the human map astrocytes are also outnumbered by microglia and OPCs combined (one label). Human white matter, left out here, is 83% oligodendrocytes among glia.",
   "source": "ours",
   "post": null,
-  "video": null,
+  "video": "https://youtu.be/xAfzqihtC_E",
   "date": "2026-11-27"
+ },
+ {
+  "id": "white-matter-neurons",
+  "value": "648",
+  "claim": "neurons among the 13,063 cells labelled white matter in this human cortex sample (5%, 1 cell in 20); most sit near the cortex, but 1 in 5 lie more than 300 µm deep",
+  "map": "h01",
+  "method": "H01 somas.csv (c3), rows with layer \"White matter\": 13,063 cells, of which neurons = PYRAMIDAL 301 + UNCLASSIFIED_NEURON 142 + INTERNEURON 111 + SPINY_ATYPICAL 89 + SPINY_STELLATE 5 = 648 (5.0%) (ours). Depth (ours): distance from each cell to the nearest cell labelled \"Layer 6\" (voxels 8 × 8 × 33 nm): neurons median 139 µm, 37% within 100 µm, 19% beyond 300 µm, farthest 766 µm; white-matter glia median 312 µm. For comparison, the paper's Table S6 gives 4,174 neurons per mm³ in white matter (compression-corrected). Script: github.com/shoo99/kbrain-map-numbers/blob/main/scripts/white-matter-neurons.py",
+  "caveat": "One sample (human temporal cortex, epilepsy surgery). Layer borders are the H01 team's, fitted to clusters of cells, so cells near the border may belong to layer 6. \"Depth\" is our own measure (distance to the nearest layer 6 cell), not a distance along a fitted border.",
+  "source": "ours",
+  "post": null,
+  "video": null,
+  "date": "2026-11-28"
  }
 ]
